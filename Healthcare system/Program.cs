@@ -146,16 +146,12 @@ public class HealthSystemApp
     }
 }
 
-// --------------------------
-// Program entry point
-// --------------------------
 class Program
 {
     static void Main()
     {
         var app = new HealthSystemApp();
 
-        // Main flow
         app.SeedData();
         app.BuildPrescriptionMap();
 

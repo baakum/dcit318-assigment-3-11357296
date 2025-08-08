@@ -202,7 +202,7 @@ class Program
             Console.WriteLine($"Quantity error: {ex.Message}");
         }
 
-        Console.WriteLine("\nPress any key to exit...");
+        Console.WriteLine("\nPress any key to exit.......");
         Console.ReadKey();
     }
 }
